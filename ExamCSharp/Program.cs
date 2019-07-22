@@ -13,12 +13,19 @@ namespace ExamCSharp
             {
                 Console.WriteLine("Name = {0}, Gender = Male, Age = {1}", people.Name, people.Age);
             }
-            
+            else
+            {
+                Console.WriteLine("Name = {0}, Gender = Female, Age = {1}", people.Name, people.Age);
+            }
             people.Age += 10;
             
             if (people.Gender){
                 
                 Console.WriteLine("Name = {0}, Gender = Male, Age = {1}", people.Name, people.Age);
+            }
+            else
+            {
+                Console.WriteLine("Name = {0}, Gender = FeMale, Age = {1}", people.Name, people.Age);
             }
             
             ///Fig:2
